@@ -1,12 +1,15 @@
-﻿using System;
+﻿using CodingPractice.Loop;
+using System;
 
 namespace CodingPractice
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var displayLoop = new Excercise1();
+
+            displayLoop.DisplayFirst();
         }
     }
 }
