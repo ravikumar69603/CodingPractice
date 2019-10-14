@@ -1,4 +1,5 @@
-﻿using CodingPractice.Loop;
+﻿using CodingPractice.Array;
+using CodingPractice.Loop;
 using System;
 
 namespace CodingPractice
@@ -7,9 +8,12 @@ namespace CodingPractice
     {
         public static void Main(string[] args)
         {
-            var displayLoop = new Excercise1();
+            var getMethod = new ReverseArray();
+            getMethod.ReverseArrayList();
 
-            displayLoop.DisplayFirst();
+
+
+            Console.ReadKey();
         }
     }
 }
