@@ -8,8 +8,8 @@ namespace CodingPractice
     {
         public static void Main(string[] args)
         {
-            var getMethod = new ReverseArray();
-            getMethod.ReverseArrayList();
+            var getMethod = new ArrangeArray();
+            getMethod.arrangeArryFields();
 
 
 
